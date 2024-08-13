@@ -59,7 +59,7 @@
         </p>
 
         <ul>
-          {{ if .bulletpoints}}
+          {{ if eq .markType "checkMark" }}
           {{ range .bulletpoints }}
           <li class="relative mb-4 pl-6">
             <i class="fa fa-check absolute left-0 top-1.5"></i>
@@ -68,10 +68,19 @@
           {{ end }}
           {{ end }}
 
-          {{ if .dashpoints}}
-          {{ range .dashpoints }}
+          {{ if eq .markType "xMark" }}
+          {{ range .bulletpoints }}
           <li class="relative mb-4 pl-6">
-            <i class="fa-regular fa-circle-xmark absolute left-0 top-1.5"></i>
+            <i class="fa-regular fa-xmark absolute left-0 top-1.5"></i>
+            {{ . | markdownify }}
+          </li>
+          {{ end }}
+          {{ end }}
+
+          {{ if eq .markType "bulletMark" }}
+          {{ range .bulletpoints }}
+          <li class="relative mb-4 pl-6">
+            <i class="fa-regular fa-circle absolute left-0 top-1.5"></i>
             {{ . | markdownify }}
           </li>
           {{ end }}
