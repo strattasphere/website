@@ -16,7 +16,7 @@ banner:
 features:
   - title: "Sometimes, there can be too much of a good thing"
     image: "/images/service-1.png"
-    content: "Just like eating too much chocolate at Christmas (it's okay, I won't tell), when your business (i.e. you) reaches maximum capacity, growth can slow down and feel like it's weighing you down."
+    content: "Just like eating too much food at Christmas (it's okay, I do it too), when your business (i.e. you) reaches maximum capacity, growth can slow down and feel like it's weighing you down."
     markType: "xMark"
     bulletpoints:
       - "**You are finding it difficult to grow your business** because you just can't find the time in your jam-packed schedule."
@@ -42,15 +42,14 @@ features:
       label: "Help Me Solve These"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "How do I know if an online course is right for my business?"
+  - title: "Why are online courses one of the answers to these problems?"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Well, I am glad you asked. Let us explore what is possible. You could..."
     markType: "checkMark"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "**Increase your prices for your 1:1 service** by providing more bespoke sessions by having courses that solve specific problems."
+      - "**Create another income stream for your business**, allowing you to take time off with the family, or you can put your foot down and keep growing!"
+      - "**Build a community around the topics you teach**, helping groups of people learn and grow under your guidance."
     button:
       enable: true
       label: "Get Me An Online Course!"
