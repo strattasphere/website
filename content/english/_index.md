@@ -6,7 +6,7 @@ banner:
   content1: "Turning your knowledge into online courses allows you to do the work once then benefit over and over."
   content2: "Online courses can also be used as a way to promote your done-with-you or done-for-you services, building up
         rapport with your clients before they even get on the phone with you."
-  image: "/images/banner.png"
+  image: "/images/mountains.svg"
   button:
     enable: true
     label: "That Sounds Great"
@@ -15,7 +15,7 @@ banner:
 # Features
 features:
   - title: "Sometimes, there can be too much of a good thing"
-    image: "/images/service-1.png"
+    image: "/images/forest.jpg"
     content: "Just like eating too much food at Christmas (it's okay, I do it too), when your business (i.e. you) reaches maximum capacity, growth can slow down and feel like it's weighing you down."
     markType: "xMark"
     bulletpoints:
@@ -29,8 +29,8 @@ features:
       label: "How Can I Solve These?"
       link: "#"
 
-  - title: "Clients are the lifeblood of your business"
-    image: "/images/service-2.png"
+  - title: "The most important thing for any business"
+    image: "/images/blue-mountains.png"
     content: "Without clients, you would have no business. They are the what allow you to make the difference in the world that you want, live the lifestyle you want to live, and create the business you have been dreaming of, but..."
     markType: "bulletMark"
     bulletpoints:
@@ -42,8 +42,8 @@ features:
       label: "Help Me Solve These"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "Why are online courses one of the answers to these problems?"
-    image: "/images/service-3.png"
+  - title: "How online courses can help you solve these problems"
+    image: "/images/mountain-purple.png"
     content: "Well, I am glad you asked. Let us explore what is possible. You could..."
     markType: "checkMark"
     bulletpoints:
