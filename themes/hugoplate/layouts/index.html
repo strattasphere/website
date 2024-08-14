@@ -1,15 +1,5 @@
 {{ define "main" }}
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2WLCHER06"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H2WLCHER06');
-</script>
-
 <!-- Banner -->
 {{ with .Params.banner }}
 <section class="section pt-8">
@@ -22,10 +12,10 @@
         <h1 class="mb-4 text-h3 lg:text-h3">
           {{ .subtitle | markdownify }}
         </h1>
-        <p class="mb-4">
+        <p class="mb-4 px-6 ">
           {{ .content1 | markdownify }}
         </p>
-        <p class="mb-8">
+        <p class="mb-8 px-6">
           {{ .content2 | markdownify }}
         </p>
         {{ with .button }}
@@ -38,7 +28,7 @@
         {{ end }}
         {{ end }}
       </div>
-      <div class="col-12">
+      <div class="hidden md:block col-12">
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class"
         "mx-auto lg:!max-w-[800px]"
         "DisplayXL" "800x" ) }}
