@@ -112,7 +112,7 @@
     <div class="row">
 
 
-      <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+      <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-8 text-center">
         <h2 class="mb-4">
           {{ .Title | markdownify }}
         </h2>
@@ -140,7 +140,7 @@
       <div>
         <div class="xl:hidden flex flex-col space-y-4">
           {{ range .Params.stages }}
-          <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+          <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 mx-4 py-10">
 
             <div class="text-dark dark:text-white">
               <h4>{{ .stage }}</h4>
@@ -161,6 +161,41 @@
 {{ end }}
 <!-- /The Process -->
 
+<!-- About -->
+{{ with site.GetPage "sections/about" }}
+{{ if .Params.enable }}
+<section class="section">
+  <div class="container">
+    <div class="">
+
+      <div class=" mx-auto mb-12 text-center">
+        <h2 class="mb-4">
+          {{ .Title | markdownify }}
+        </h2>
+        <p>
+          {{ .Params.description | markdownify }}
+        </p>
+      </div>
+
+      {{ range .Params.about }}
+      <div class="flex flex-row bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 mx-4 py-10">
+        <blockquote class="mt-8">
+          {{ .content | markdownify }}
+        </blockquote>
+        <div class="">
+          <div class="text-dark dark:text-white">
+            {{ partial "image" (dict "Src" .avatar "Size" "400x400" "Class" "rounded-full" "Alt" .name) }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /About -->
 
 <!-- Testimonials -->
 {{ with site.GetPage "sections/testimonial" }}
@@ -181,7 +216,7 @@
           <div class="swiper-wrapper">
             {{ range .Params.testimonials }}
             <div class="swiper-slide">
-              <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+              <div class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 mx-4 py-10">
                 <div class="text-dark dark:text-white">
                   <svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path

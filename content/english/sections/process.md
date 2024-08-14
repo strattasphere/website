@@ -5,19 +5,19 @@ description: "The process of creating a course is one where you will be kept up-
 
 stages:
   - stage: "01 - Discovery"
-    content: "You get on a discovery call with me and we talk all about you, where you are at with your business, and if I can help you. <br><br>If we’re a good fit, then we’ll crack on with getting your course started."
+    content: "You get on a discovery call with me and **we talk all about you, where you are at with your business, and if I can help you**. <br><br>If we’re a good fit, then we’ll crack on with getting your course started."
  
   - stage: "02 - Research"
-    content: "This is the most important step. <br><br> We make sure that the course you make is has a clear target market, solves a problem that target market has, and is worth it to your clients spending money on it. "
+    content: "This is the most important step. <br><br> We make sure that the course you make has **a clear target market, solves a problem that target market has**, and is worth it to your clients spending money on it."
 
   - stage: "03 - Outline"
-    content: "We will get together on the phone (or in-person - I like coffee!) and **extract your knowledge around the topic for this course so that we can turn that into a course structure.** <br><br>You'll receive the course outline and ideas for supporting material to approve, and if needed, have edits made to."
+    content: "We will get together on the phone (or in-person - I like coffee!) and **extract your knowledge around the topic for this course** so that we can turn that into a course structure. <br><br>You'll receive the course outline and ideas for supporting material to approve, and if needed, have edits made to."
 
   - stage: "04 - Create"
-    content: "The moment we’ve all been waiting for! This is where all our setup work and interviews come together.<br><br>You receive all the the content that has been produced and how to work with it when you are recording the lessons."
+    content: "The moment we’ve all been waiting for! This is where all our planning comes together.<br><br>**You receive all the the content that has been produced** (lesson plans, slides, and more) and how to work with it when you are recording the lessons."
 
   - stage: "05 - Deliver"
-    content: "All of the finished course content will be setup on the learning platform for you, so it is hassle free and you don’t having to learn a whole new set of systems. <br><br>And just like that, you have a course! "
+    content: "All of the finished course content will be setup on the learning platform for you, so it is **hassle free and you don’t having to learn a whole new set of systems.** <br><br>And just like that, you have a course! "
 
 # stages 
 fullStages:
