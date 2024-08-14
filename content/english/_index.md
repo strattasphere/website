@@ -50,6 +50,7 @@ features:
       - "**Increase your prices for your 1:1 service** by providing more bespoke sessions by having courses that solve specific problems."
       - "**Create another income stream for your business**, allowing you to take time off with the family, or you can put your foot down and keep growing!"
       - "**Build a community around the topics you teach**, helping groups of people learn and grow under your guidance."
+      - "**Help more people to achieve success through your teachings** "
     button:
       enable: true
       label: "Get Me An Online Course!"

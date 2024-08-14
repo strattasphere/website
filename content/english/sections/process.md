@@ -3,6 +3,12 @@ enable: true
 title: "So, how does it work?"
 description: "The process of creating a course is one where you will be kept up-to-date every step of the way. We will work together to translate your knowledge and experience into a format that your students can understand and implement into the real world."
 
+button:
+  enable: true
+  label: "Work With Me"
+  link: "https://github.com/zeon-studio/hugoplate"
+
+
 stages:
   - stage: "01 - Discovery"
     content: "You get on a discovery call with me and **we talk all about you, where you are at with your business, and if I can help you**. <br><br>If we’re a good fit, then we’ll crack on with getting your course started."
