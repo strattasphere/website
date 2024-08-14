@@ -1,7 +1,18 @@
 {{ define "main" }}
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2WLCHER06"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H2WLCHER06');
+</script>
+
 <!-- Banner -->
 {{ with .Params.banner }}
-<section class="section pt-14">
+<section class="section pt-8">
   <div class="container">
     <div class="row justify-center">
       <div class="lg:col-7 md:col-9 mb-8 text-center">
@@ -198,7 +209,7 @@
           {{ .content | markdownify }}
         </blockquote>
         <div class="flex justify-center lg:pl-4 lg:items-center text-dark dark:text-white">
-          {{ partial "image" (dict "Src" .avatar "Size" "300x300" "Class" "rounded-lg" "Alt" .name) }}
+          {{ partial "image" (dict "Src" .avatar "Size" "300x00" "Class" "rounded-lg" "Alt" .name) }}
         </div>
       </div>
       {{ end }}
