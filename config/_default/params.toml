@@ -83,7 +83,7 @@ mastodon = "" # Your verification code
 [cookies]
 enable = true
 expire_days = 60
-content = "We use analytics on this site to see how well the site performs, but ad-tracking is not how we make money. By continuing to use this website, you agree to its use. Or, if you don't, we welcome the use of adblockers."
+content = "We use analytics on this site to see how well the site performs. By continuing to use this website, you agree to its use. Or, if you don't, we welcome the use of adblockers."
 button = "I Accept"
 
 # diagrams
