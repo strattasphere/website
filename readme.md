@@ -1,4 +1,4 @@
-<h1 align="center">The Source Code of [schola.co.uk](schola.co.uk)</h1>
+<h1 align="center">The Source Code of schola.co.uk</h1>
 
 <p align="center">This website was built with Hugo and the Hugoplate theme, customised to suit our own use.</p>
 
@@ -125,14 +125,14 @@ And if you want to Host some other hosting platforms. then you can build your pr
 
 ---
 
-## 🔒 Guide to Staying Compliant
+## Guide to Staying Compliant
 
-### 🐞 Reporting Issues
+### Reporting Issues
 
 We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/hugoplate/issues). It’s possible someone has already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
 
-### 📝 License
+### License
 
 Copyright (c) 2024 - Luke Stratta
 
