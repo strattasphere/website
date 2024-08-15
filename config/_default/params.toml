@@ -11,7 +11,7 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "visiontheory"
+logo_text = "schola"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -66,7 +66,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 keywords = ["Boilerplate", "Hugo"]
 description = "Online courses that grow your business"
 author = "schola"
-image = "images/og-image.png"
+image = "images/link-preview-image.png"
 
 
 # site verifications
@@ -81,9 +81,9 @@ mastodon = "" # Your verification code
 # cookies
 # cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 [cookies]
-enable = false
+enable = true
 expire_days = 60
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
+content = "We use analytics on this site to see how well the site performs, but ad-tracking is not how we make money. By continuing to use this website, you agree to its use. Or, if you don't, we welcome the use of adblockers."
 button = "I Accept"
 
 # diagrams
