@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "page-header" . }}
 
-
+{{ with site.Params }}
 <section class="section-sm">
   <div class="container">
     <div class="row">
@@ -10,13 +10,14 @@
       <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
       <script>
         Calendly.initInlineWidget({
-          url: 'https://calendly.com/lukestratta-bcpe/30min',
+          url: {{ .calendly_link}},
           parentElement: document.getElementById('calendly-embed')
         });
       </script>
     </div>
   </div>
 </section>
+{{ end }}
 
 <!-- google map -->
 {{ with site.Params.google_map }}
