@@ -1,91 +1,14 @@
-<h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
+<h1 align="center">The Source Code of [schola.co.uk](schola.co.uk)</h1>
 
-<p align="center">Hugoplate is a free starter template built with Hugo, and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
-
-<p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
-<p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
-
-<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a>
-</h2>
-
-<p align="center">
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.126.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.126.0&color=f00&logo=hugo" />
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/hugoplate" alt="license">
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate">
-    <img src="https://img.shields.io/github/languages/code-size/zeon-studio/hugoplate" alt="code size">
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors">
-  </a>
-</p>
-
-## 🎁 What's Included
-
-We have included almost everything you need to start your Hugo project. Let's see what's included in this template:
-
-### 📌 Key Features
-
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
-
-### 📄 15+ Pre-designed Pages
-
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
-
-### 📦 Tech Stack
-
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [PostCSS](https://postcss.org/)
-- [PurgeCSS](https://purgecss.com/)
-- [AutoPrefixer](https://autoprefixer.github.io/)
-- [Hugo Modules](https://gohugo.io/hugo-modules/) by [Gethugothemes](https://gethugothemes.com/hugo-modules)
-- [Markdown](https://markdownguide.org/)
-- [Prettier](https://prettier.io/)
-- [Jshint](https://jshint.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
+<p align="center">This website was built with Hugo and the Hugoplate theme, customised to suit our own use.</p>
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
 
-### ⚙️ Prerequisites
+### Prerequisites
 
 To start using this template, you need to have some prerequisites installed on your machine.
 
@@ -93,7 +16,7 @@ To start using this template, you need to have some prerequisites installed on y
 - [Node v20+](https://nodejs.org/en/download/)
 - [Go v1.22+](https://go.dev/doc/install)
 
-### 👉 Project Setup
+### Project Setup
 
 We build this custom script to make your project setup easier. It will create a new Hugo theme folder, and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
 
@@ -101,7 +24,7 @@ We build this custom script to make your project setup easier. It will create a 
 npm run project-setup
 ```
 
-### 👉 Install Dependencies
+### Install Dependencies
 
 Install all the dependencies using the following command.
 
@@ -109,47 +32,42 @@ Install all the dependencies using the following command.
 npm install
 ```
 
-### 👉 Development Command
+### Development Command
 
 Start the development server using the following command.
 
 ```bash
 npm run dev
 ```
-
-### 🎬 Still Confused? Watch a Quick Video
-
-https://github.com/zeon-studio/hugoplate/assets/58769763/c260c0ae-91be-42ce-b8db-aa7f11f777bd
-
 ---
 
-## 📝 Customization
+## Customization
 
 This template has been designed with a lot of customization options in mind. You can customize almost anything you want, including:
 
-### 👉 Site Config
+### Site Config
 
 You can change the site title, base URL, language, theme, plugins, and more from the `hugo.toml` file.
 
-### 👉 Site Params
+### Site Params
 
 You can customize all the parameters from the `config/_default/params.toml` file. This includes the logo, favicon, search, SEO metadata, and more.
 
-### 👉 Colors and Fonts
+### Colors and Fonts
 
 You can change the colors and fonts from the `data/theme.json` file. This includes the primary color, secondary color, font family, and font size.
 
-### 👉 Social Links
+### Social Links
 
 You can change the social links from the `data/social.json` file. Add your social links here, and they will automatically be displayed on the site.
 
 ---
 
-## 🛠 Advanced Usage
+## Advanced Usage
 
 We have added some custom scripts to make your life easier. You can use these scripts to help you with your development.
 
-### 👉 Update Theme
+### Update Theme
 
 If you want to update the theme, then you can use the following command. It will update the theme to the latest version.
 
@@ -159,7 +77,7 @@ npm run update-theme
 
 > **Note:** This command will work after running `project-setup` script.
 
-### 👉 Update Modules
+### Update Modules
 
 We have added a lot of modules to this template. You can update all the modules using the following command.
 
@@ -167,7 +85,7 @@ We have added a lot of modules to this template. You can update all the modules 
 npm run update-modules
 ```
 
-### 👉 Remove Dark Mode
+### Remove Dark Mode
 
 If you want to remove dark mode from your project, you can use the following command to remove dark mode from your project.
 
@@ -179,11 +97,11 @@ npm run remove-darkmode
 
 ---
 
-## 🚀 Build And Deploy
+## Build And Deploy
 
 After you finish your development, you can build or deploy your project almost everywhere. Let's see the process:
 
-### 👉 Build Command
+### Build Command
 
 To build your project locally, you can use the following command. It will purge all the unused CSS and minify all the files.
 
@@ -191,7 +109,7 @@ To build your project locally, you can use the following command. It will purge 
 npm run build
 ```
 
-### 👉 Deploy Site
+### Deploy Site
 
 We have provided 5 different deploy platform configurations with this template, so you can deploy easily.
 
@@ -216,24 +134,10 @@ If your problem or idea has not been addressed yet, feel free to [open a new iss
 
 ### 📝 License
 
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
+Copyright (c) 2024 - Luke Stratta
 
 **Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images. Images are courtesy of Pixabay
 
----
 
-## 🖼️ Showcase
-
-List of some projects people are building with **Hugoplate**!
-
-| [![Open Neuromorphic](https://tinyurl.com/hp7avtje)](https://open-neuromorphic.org/) | [![AI Models](https://tinyurl.com/mu4p7dhb)](https://aimodels.org/) | [![Hugobricks](https://tinyurl.com/4x3uwhm9)](https://www.hugobricks.preview.usecue.com/) | [![ONO LLC](https://tinyurl.com/2fbjzwzn)](https://ono.day/)
-|:---:|:---:|:---:|:---:|
-| **Open Neuromorphic** | **AI Models** | **Hugobricks** | **ONO LLC** |
-
----
-
-## 💻 Need Customization?
-
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/estimate-project).
