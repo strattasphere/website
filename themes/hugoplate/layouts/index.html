@@ -181,29 +181,28 @@
 {{ if .Params.enable }}
 <section class="section">
   <div class="container">
-    <div class="">
 
-      <div class=" mx-auto mb-12 text-center">
-        <h2 class="mb-4">
-          {{ .Title | markdownify }}
-        </h2>
-        <p>
-          {{ .Params.description | markdownify }}
-        </p>
-      </div>
-
-      {{ range .Params.about }}
+    <div class="mx-auto mb-12 text-center ">
+      <h2 class="mb-4">
+        {{ .Title | markdownify }}
+      </h2>
+      <p>
+        {{ .Params.description | markdownify }}
+      </p>
+    </div>
+    <div class="flex justify-center">
       <div
-        class="flex flex-col-reverse lg:flex-row bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 mx-4 py-10">
+        class="flex lg:w-3/4 flex-col-reverse lg:flex-row bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 mx-4 py-10">
         <blockquote class="mt-8">
-          {{ .content | markdownify }}
+          {{ .Params.content | markdownify }}
         </blockquote>
-        <div class="flex justify-center lg:pl-4 lg:items-center text-dark dark:text-white">
-          {{ partial "image" (dict "Src" .avatar "Size" "300x00" "Class" "rounded-lg" "Alt" .name) }}
+        <div class="lg:hidden flex justify-center lg:pl-4 lg:items-center text-dark dark:text-white">
+          {{ partial "image" (dict "Src" .Params.avatar "Size" "300x300" "Class" "rounded-lg" "Alt" .Params.name) }}
+        </div>
+        <div class="hidden lg:flex justify-center lg:pl-4 lg:items-center text-dark dark:text-white">
+          {{ partial "image" (dict "Src" .Params.avatar "Size" "500x500" "Class" "rounded-lg" "Alt" .Params.name) }}
         </div>
       </div>
-      {{ end }}
-
     </div>
   </div>
 </section>
