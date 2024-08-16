@@ -1,13 +1,19 @@
 {{ define "main" }}
 {{ partial "page-header" . }}
 
-
 {{ with site.GetPage "contact" }}
 <section class="section-sm">
   <div class="container">
     <div class="row">
       <div class="flex justify-center">
-        <h4>{{ .Params.description }}</h4>
+        <div class="flex-col pb-10 md:pb-0 lg:w-3/4 xl:w-3/5 text-center">
+          <div class="">
+            <h3>{{ .Params.heading }}</h3>
+          </div>
+          <div class="">
+            <p>{{ .Params.subheading }}</p>
+          </div>
+        </div>
       </div>
       {{ with site.Params }}
       <!-- Calendly inline widget begin -->
