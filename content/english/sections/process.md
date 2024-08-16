@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "So, how does it work?"
+title: "\"So, how does it work?\""
 description: "The process of creating a course is one where you will be kept up-to-date every step of the way. We will work together to translate your knowledge and experience into a format that your students can understand and implement into the real world."
 
 button:

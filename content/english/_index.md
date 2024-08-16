@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Growing Your Business Doesn't Have To Be Complicated"
-  subtitle: "Turn Your Knowledge Into A <br> Profitable On-Demand Product"
+  title: "Growing your business doesn't have to be complicated"
+  subtitle: "Turn your knowledge into a<br>profitable on-demand product"
   content1: "Turning your knowledge into online courses allows you to do the work once then benefit over and over."
   content2: "Online courses can also be used as a way to promote your done-with-you or done-for-you services, building up
         rapport with your clients before they even get on the phone with you."
